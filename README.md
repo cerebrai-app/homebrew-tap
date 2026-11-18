@@ -63,7 +63,7 @@ cask, use `brew untrust --cask cerebrai-app/tap/brainctl`.
 ## Maintaining
 
 GoReleaser writes the files in `Casks/` when go-cerebrai publishes a release (see
-`go-release.yml` in [cerebrai-app/actions](https://github.com/cerebrai-app/actions)), so
+the `go-release-publish` action in [cerebrai-app/actions](https://github.com/cerebrai-app/actions)), so
 don't edit them by hand. Change `.goreleaser.yaml` in go-cerebrai instead.
 
 The binaries are not signed, so on macOS each cask removes the quarantine attribute after
