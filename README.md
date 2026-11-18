@@ -70,8 +70,8 @@ The binaries are not signed, so on macOS each cask removes the quarantine attrib
 installing, which keeps Gatekeeper from blocking them.
 
 This repository's workflows call the shared actions in
-[cerebrai-app/actions](https://github.com/cerebrai-app/actions) and run on the
-`self-hosted` runners:
+[cerebrai-app/actions](https://github.com/cerebrai-app/actions) and run on GitHub's
+`ubuntu-latest` runners:
 
 | Workflow | What it does |
 | --- | --- |
